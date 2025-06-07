@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.title1{
+    font-size: 40px;
+    font-weight: bold;
+    padding: -10px;
+    margin: 0px;
+    border: border-box;
+}
+
+.title2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 5 auto;
+    padding: 20px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-extended blue-grey darken-3">
+      <div class="nav-wrapper text-center center-align">
+        <a class="title1">AEDII - Atividade 09 - AVD2</a>
+        <br />
+        <span class="title2">Funções Recursivas</span>
+      </div>
+      
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="">
+          <div class="col s12 ">
+            <div class="center-align ">
+              <h2 class="center  blue-grey-text text-darken-4">
+                Função Fatorial
+              </h2>
+            </div>
+            <p></p>
+          </div>
+          <h5 class="header col s12 light blue-grey-text text-darken-4">
+            Este trabalho tem por objetivo demonstrar o funcionamento de uma
+            função recursiva para o cálculo da fatorial de um número inteiro que
+            deverá ser informado abaixo.
+          </h5>
+        </div>
+      </div>
+
+      <form>
+        <div class="row">
+          <div class="input-field col s4 offset-s4">
+            <input
+              id="numero"
+              type="number"
+              placeholder="Informe um número inteiro"
+              class="validate"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 center-align">
+            <input
+              type="button"
+              class="btn waves-effect waves-light blue-grey darken-3"
+              id="btn"
+              value="Calcular Fatorial"
+            />
+            <input
+              type="button"
+              value="Limpar"
+              class="btn waves-effect waves-light red darken-3"
+              id="limpar"
+              onclick="limparCampos()"
+            />
+          </div>
+        </div>
+      </form>
+      <div class="row">
+        <div class="col s12 center-align">
+          <h5 class="blue-grey-text text-darken-4">
+            Resultado: <span id="resultado"> </span>
+          </h5>
+          <!-- O resultado será exibido aqui após o cálculo -->
+          <div class="blue-grey-text darken-3" id="resultado-text"></div>
+          <!-- Memoria de calculo -->
+          <span class="blue-grey-text darken-3"
+            >O cálculo será realizado aqui.</span
+          >
+          <div id="calc_memory" class="blue-grey-text text-darken-3"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer blue-grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l12 s12">
+                    <h5 class="white-text">GRUPO</h5>
+                </div>
+                <div class="col 12">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Lucas</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Wesley</a></li>
+                    </ul>
+                    <a class="grey-text text-lighten-4 left" href="#!">AED-II - Professora Débora Amorim</a>
+                </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2025 Copyright Text
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
