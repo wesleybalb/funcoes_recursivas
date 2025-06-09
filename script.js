@@ -29,7 +29,9 @@ console.log(document.getElementById('calc_memory').innerHTML)
 function fatorial(n) {
     const m_calc = document.getElementById('calc_memory')
     
-    m_calc.innerHTML += `Calculando fatorial de ${n}...<br>`;
+    m_calc.innerHTML += `Calculando fatorial de ${n}...<br>
+    Passo: ${n} * fatorial(${n - 1})<br>
+    `;
 
     if (n === 0 || n === 1) {
 
