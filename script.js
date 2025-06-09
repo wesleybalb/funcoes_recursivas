@@ -31,6 +31,8 @@ function fatorial(n) {
     
     m_calc.innerHTML += `Calculando fatorial de ${n}...<br>
     Passo: ${n} * fatorial(${n - 1})<br>
+    variável n: ${n}<br>
+    Variável n - 1: ${n - 1}<br>
     `;
 
     if (n === 0 || n === 1) {
